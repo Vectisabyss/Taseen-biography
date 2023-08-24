@@ -1,0 +1,39 @@
+body{
+	background-color: rgb(128, 126, 129, 1.0);
+	font-size: 20px;
+	padding-inline: auto;
+}
+
+h2{
+	color: rgb(130, 132, 134 1.0);
+	text-align: center;
+	font-family: monospace;
+	font-size: 60px;
+	padding: auto;
+}
+.img-whi{
+	 position: relative;
+    width: 100%;
+    max-height: 120vh; /* Adjust this value to your desired size */
+    max-width: 120vh;
+    overflow: hidden;
+}
+.img-whi img {
+			width: 100%;
+			height: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+			object-fit: cover;
+			object-position: top center;
+		}
+
+		.container {
+			display: flex;
+			align-items: flex-start;
+		}
+
+		.text-content {
+			padding-left: 20px; /* Add some spacing between image and text */
+			flex: 1; /* Allow the text container to expand */
+		}
